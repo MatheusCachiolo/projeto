@@ -29,6 +29,7 @@ import { NgxLoadingModule, ngxLoadingAnimationTypes } from 'ngx-loading';
 import { TodoListComponent } from './todo-list/todo-list.component';
 
 import { HttpClientModule } from '@angular/common/http';
+import { TodoEditorComponent } from './todo-editor/todo-editor.component';
 
 @NgModule({
   exports: [
@@ -84,7 +85,9 @@ export class MaterialModule {}
 @NgModule({
   declarations: [
     AppComponent,
-    TodoListComponent
+    TodoListComponent,
+    TodoEditorComponent
+
 
   ],
   imports: [
