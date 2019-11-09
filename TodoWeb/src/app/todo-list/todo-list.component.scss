@@ -1,0 +1,24 @@
+.todoItem {
+    margin-bottom: 20px;
+    width: 400px;
+}
+
+mat-card-header  {
+    size: 2em;
+}
+mat-card-header    mat-icon {
+        font-size: 3em;
+    }
+
+    mat-card-header    .high {
+        color:red;
+    }
+
+    mat-card-header .medium {
+        color: yellow;
+    }
+
+    mat-card-header .low {
+        color: lightgreen;
+    }
+

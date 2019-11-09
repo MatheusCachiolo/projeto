@@ -28,6 +28,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgxLoadingModule, ngxLoadingAnimationTypes } from 'ngx-loading';
 import { TodoListComponent } from './todo-list/todo-list.component';
 
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   exports: [
     // CDK
@@ -91,6 +93,7 @@ export class MaterialModule {}
     BrowserAnimationsModule,
     MaterialModule,
     FlexLayoutModule,
+    HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
     NgxLoadingModule.forRoot({
